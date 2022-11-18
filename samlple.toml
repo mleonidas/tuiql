@@ -1,0 +1,17 @@
+[[conn]]
+name = "local test"
+type = "postgres"
+user = "postgres"
+host = "'127.0.0.1'"
+database = "test_local"
+password = "password"
+port = 5432
+
+[[conn]]
+name = "test test"
+type = "postgres"
+user = "root"
+host = "'127.0.0.1'"
+database = "test_staging"
+password = "password"
+port = 5432
